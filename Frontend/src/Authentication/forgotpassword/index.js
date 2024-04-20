@@ -23,23 +23,6 @@ export default function ForgotPassword() {
                     </form>
                 </Card>
             </div>
-            {/* <div className='justify-center flex items-center' >
-                <div className='flex-col flex border border-black rounded-lg p-10 justify-center items-center pl-20 pr-20'>
-                    <div style={{ backgroundImage: "url(/img/logo-no-background.png)", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: 220, width: 200 }}>
-                        <div className='justify-center items-center'>
-                            <text className='font-bold'>
-                                Forgot Password
-                            </text>
-                            <form className='mt-10'>
-                                <FloatingLabel variant="outlined" label="Email" type='email' required />
-                            </form>
-                            <Button type="submit" className='flex grow '>Submit</Button>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div > */}
         </div >
     )
 }

@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import Header from './Components/header';
-import ErrorPage from './error-page';
 import ForgotPassword from './Authentication/forgotpassword';
 import Profile from './Content/profile';
 import Login from './Authentication/login';
@@ -13,9 +11,6 @@ import Activation from './Authentication/activation';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Header />,
-    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -40,7 +35,6 @@ const router = createBrowserRouter([
     element: <Activation />,
   },
 ]);
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
